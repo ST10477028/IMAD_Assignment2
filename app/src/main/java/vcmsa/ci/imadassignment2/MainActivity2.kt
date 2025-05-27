@@ -14,15 +14,15 @@ class MainActivity2 : AppCompatActivity() {
 
     //array to store history questions
     val questions = arrayOf(
-        "In 1990, Nelson Mandela was released from prison.",
-        "In 1903, the first woman won the Nobel Prize.",
-        "The Mona Lisa was painted by Leonardo Da Vinci.",
-        "The first person to walk on the moon was Ronaldo",
-        "The first car was made in 300BC"
+        "The Anglo-Zulu War took place in 1912, and it was fought between the British Empire and the Zulu Kingdom.",
+        " The Battle of Blood River in 1838 was a significant conflict between the Voortrekkers and the Zulu Kingdom.",
+        "The 1994 elections were the first in South Africa where people of all races were allowed to vote.",
+        "The Boers were Dutch settlers who first arrived in South Africa in the late 18th century, eventually establishing the Union of South Africa in 1910.",
+        "The apartheid policy was officially ended by the South African government in 1989."
     )
 
     //array to store true/false answers which are boolean
-    val answers = booleanArrayOf(true, true, true, false, false)
+    val answers = booleanArrayOf(false , true, true, false, false)
 
     //variable declaration which also initializes it to 0
     var score = 0
